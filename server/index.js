@@ -9,6 +9,8 @@ const app = express();
 
 const port = process.env.PORT || 5001;
 
+// connection string: mongodb+srv://lcarlson144:daM1acZv5fflMmMZ@shoppingcart.kniic.mongodb.net/?retryWrites=true&w=majority&appName=shoppingCart
+
 mongoose
   .connect(process.env.DB, {
     useNewUrlParser: true,
